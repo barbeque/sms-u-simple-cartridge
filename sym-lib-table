@@ -1,0 +1,3 @@
+(sym_lib_table
+  (lib (name "MasterSystem")(type "KiCad")(uri "${KIPRJMOD}/MasterSystem.kicad_sym")(options "")(descr ""))
+)
