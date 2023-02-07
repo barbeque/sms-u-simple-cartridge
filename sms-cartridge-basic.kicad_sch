@@ -1183,7 +1183,7 @@
   (symbol (lib_id "power:+5V") (at 57.15 100.33 0) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid 03d42a6b-ada2-4bb7-928c-6aa31dfe4e1c)
-    (property "Reference" "#PWR?" (id 0) (at 57.15 104.14 0)
+    (property "Reference" "#PWR0108" (id 0) (at 57.15 104.14 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+5V" (id 1) (at 57.15 95.25 0))
@@ -1283,7 +1283,7 @@
   (symbol (lib_id "Jumper:Jumper_2_Open") (at 71.755 102.235 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 640120f3-2e43-4994-868f-d521a3b9a66b)
-    (property "Reference" "JP?" (id 0) (at 66.675 100.965 0))
+    (property "Reference" "JP3" (id 0) (at 66.675 100.965 0))
     (property "Value" "Jumper_2_Open" (id 1) (at 71.755 97.79 0)
       (effects (font (size 1.27 1.27)) hide)
     )
@@ -1517,7 +1517,7 @@
       (reference "#PWR0107") (unit 1) (value "GND") (footprint "")
     )
     (path "/03d42a6b-ada2-4bb7-928c-6aa31dfe4e1c"
-      (reference "#PWR?") (unit 1) (value "+5V") (footprint "")
+      (reference "#PWR0108") (unit 1) (value "+5V") (footprint "")
     )
     (path "/60a45626-6ba1-4c8e-b9bd-86b6decf0cc0"
       (reference "C1") (unit 1) (value "0.1µF") (footprint "Capacitor_THT:C_Disc_D3.8mm_W2.6mm_P2.50mm")
@@ -1529,7 +1529,7 @@
       (reference "JP2") (unit 1) (value "Jumper_2_Open") (footprint "Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm")
     )
     (path "/640120f3-2e43-4994-868f-d521a3b9a66b"
-      (reference "JP?") (unit 1) (value "Jumper_2_Open") (footprint "Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm")
+      (reference "JP3") (unit 1) (value "Jumper_2_Open") (footprint "Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm")
     )
     (path "/757a0c1f-47da-44f3-a5e7-2bebc114b1da"
       (reference "U1") (unit 1) (value "27C256") (footprint "Package_DIP:DIP-28_W15.24mm")
